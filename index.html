@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="../../../../favicon.ico">
+    <title>Пример сетки bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="container template-bootstrap-grid">
+  <div class="row template-header">
+      <div class="col-sm-1 template-col"><div class="test-cell"></div></div>
+      <div class="col-sm-1 template-col"><div class="test-cell"></div></div>
+      <div class="col-sm-1 template-col"><div class="test-cell"></div></div>
+      <div class="col-sm-1 template-col"><div class="test-cell"></div></div>
+      <div class="col-sm-1 template-col"><div class="test-cell"></div></div>
+      <div class="col-sm-1 template-col"><div class="test-cell"></div></div>
+      <div class="col-sm-1 template-col"><div class="test-cell"></div></div>
+      <div class="col-sm-1 template-col"><div class="test-cell"></div></div>
+      <div class="col-sm-1 template-col"><div class="test-cell"></div></div>
+      <div class="col-sm-1 template-col"><div class="test-cell"></div></div>
+      <div class="col-sm-1 template-col"><div class="test-cell"></div></div>
+      <div class="col-sm-1 template-col"><div class="test-cell"></div></div>
+  </div>
+</div>
+
+<section class="section-1 col-sm-12 flex-center container-fluid">
+	<p class="width-container">
+		Сначала создается контейнер (.container). <br>Его ширина равна ширине 12 колонок с отступами.<br> Если предположить, что наш сайт не имеет максимального значения по ширине, то на больших мониторах информация будет сильно растягиваться и её неудобно будет читать.<br>Ширина контейнера по умолчанию составляет 1140px. <br>Однако её можно изменить на маскимальную (как в данном примере) - во весь экран (заменив класс .container на .container-fluid.)
+	</p>
+</section>
+
+<section class="section-2 container">
+	<div class="row col-sm-12 flex-center">
+		<p>Внутри контейнера создаётся ряд для контента (.row). <br> В одном контейнере может находиться несколько рядов. </p>
+	</div>
+	<div class="col-sm-12 flex-center" id="container-elem-style">
+		<p>width = <span id="inner-html-width"></span>px</p>
+	</div>
+	
+</section>
+
+<section class="section-3 container">
+	<div class="row">
+		<div class="section-3-div content flex-center col-sm-4">div</div>
+		<div class="section-3-p-1 flex-center col-sm-4"><p>В этом ряду div-ы занимают по 4 колонки (при разрешении экрана >= 576px).<br>В ширину включены отступы колонок по 15px</p></div>
+		<div class="section-3-div content flex-center col-sm-4">div</div>
+	</div>
+	<div class="row mt-5">
+		<div class="col-sm-4">
+			<div class="section-3-content content flex-center">Контент</div>
+		</div>
+		<div class="section-3-p-2 flex-center col-sm-4"><p>контент по ширине меньше div-а на 30px - это ширина 2-ух крайних отступов</p></div>
+		<div class="col-sm-4">
+			<div class="section-3-content content flex-center">Контент</div>
+		</div>
+	</div>
+</section>
+
+<section class="section-4 container">
+	<div class="row row-h">
+		<div class="example-h flex-center col-sm-12">
+				<p>Примеры</p>
+		</div>
+	</div>
+	
+	<div class="row example-div">
+		<div class="col-sm-12">
+			<div class="content flex-center">12 колонок</div>
+		</div>
+	</div>
+	<div class="row example-div">
+		<div class="col-sm-1">
+			<div class="content flex-center">1</div>
+		</div>
+		<div class="col-sm-2">
+			<div class="content flex-center">2 колонки</div>
+		</div>
+		<div class="col-sm-3">
+			<div class="content flex-center">3 колонки</div>
+		</div>
+		<div class="col-sm-6">
+			<div class="content flex-center">6 колонок</div>
+		</div>
+	</div>
+	<div class="row example-div">
+		<div class="col-sm-5">
+			<div class="content flex-center">5 колонок</div>
+		</div>
+		<div class="col-sm-7">
+			<div class="content flex-center">7 колонок</div>
+		</div>
+	</div>
+	<div class="row example-div">
+		<div class="offset-sm-4"></div>
+		<div class="col-sm-4">
+			<div class="content flex-center">4 колонки</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="content-2 content flex-center">
+			
+			</div>
+		</div>
+	</div>
+	<div class="row example-div">
+		<div class="col-sm-4">
+			<div class="content flex-center">4 колонки</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="content flex-center">4 колонки</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="content flex-center">4 колонки</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+<!-- Bootstrap Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,77 @@
+/* Fonts family */
+@font-face {
+  font-family: 'ProximaNova_Rg';
+  src: url('../fonts/ProximaNova-Regular.eot');
+  src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Regular.woff2') format('woff2'), url('../fonts/ProximaNova-Regular.woff') format('woff'), url('../fonts/ProximaNova-Regular.ttf') format('truetype'), url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNova_Bold';
+  src: url('../fonts/ProximaNova-Bold.eot');
+  src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Bold.woff2') format('woff2'), url('../fonts/ProximaNova-Bold.woff') format('woff'), url('../fonts/ProximaNova-Bold.ttf') format('truetype'), url('../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+/* Colors */
+/* Basic settings */
+html {
+  font-family: 'ProximaNova_Rg', sans-serif;
+  font-size: 10px;
+}
+/* Typography */
+section {
+  min-height: 6rem;
+  margin: 5rem 0 5rem;
+  padding: 2rem 0 2rem;
+  font-size: 1.6rem;
+}
+/* Стека Bootstrap для наглядности */
+.template-bootstrap-grid {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+}
+.template-bootstrap-grid .template-header .template-col .test-cell {
+  background-color: rgba(246, 213, 182, 0.3);
+  height: 100vh;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.content {
+  min-height: 10rem;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #cdcdcd;
+}
+.row-h .example-h {
+  padding: 1rem 0 0;
+  margin-bottom: 2rem;
+  background-color: #ffffff;
+}
+.section-1 {
+  padding: 1rem;
+  background-color: #d6e0f4;
+}
+.section-2 {
+  background-color: #d6e0f4;
+}
+.section-3 .section-3-div {
+  border-left: 15px solid #c3deb7;
+  border-right: 15px solid #c3deb7;
+}
+.section-3 .section-3-p-1,
+.section-3 .section-3-p-2 {
+  background-color: #ffffff;
+}
+.section-4 .example-div {
+  margin-bottom: 2rem;
+}
+.section-4 .content-2 {
+  height: 30rem;
+}
